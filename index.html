@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MPA</title>
+		<link rel="preload stylesheet" href="global.css" as="style" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Welcome</h1>
+			<p>Select a page to visit:</p>
+			<div class="button-group">
+				<button id="btnPageA">Go to Page A</button>
+				<button id="btnPageB">Go to Page B</button>
+			</div>
+		</div>
+		<script>
+			document.getElementById('btnPageA').addEventListener('click', () => {
+				window.location.href = 'page_a.html';
+			});
+
+			document.getElementById('btnPageB').addEventListener('click', () => {
+				window.location.href = 'page_b.html';
+			});
+		</script>
+	</body>
+</html>
