@@ -1,4 +1,5 @@
 import './util.css';
 
 export {getHtmlElementQuerySelector} from './getHtmlElementQuerySelector';
-export {setTextContent} from './setTextContent';
+export {setText} from './setText';
+export {setHtml} from './setHtml';
